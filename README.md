@@ -23,7 +23,6 @@ My line finding pipeline consisted of the following steps:
 
 
 
-
 2. **Applied gaussian blur to the grayscale image**
 
 **	**
@@ -63,9 +62,6 @@ At the end I placed the final lines on top of the image using the helper functio
 
 
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/reflections4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/lines.png "image_tooltip")
 
 
@@ -78,5 +74,3 @@ A potential shortcoming would be when the video goes through a big curb and the 
 ### **Possible improvements**
 
 More tests with parameters or developing some functionality to dynamically find best parameters of Edge and Hough. When passing on curbes to improve line drawing so it detects it and converts the drawn lines properly. 
-
-
