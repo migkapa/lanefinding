@@ -53,7 +53,7 @@ Now that I got the edge I had to create a masking region by creating a polygon s
 
 **4. Hough Transform**
 
-Using the **hough_lines** helper function and adding on top of **draw_lines **the logic to separate line segments by their slope  ( slope <= 0 for left ). Also used another function called **extrapolate_draw **to extrapolate and draw the straight lines
+Using the **hough_lines** helper function and adding on top of **draw_lines** the logic to separate line segments by their slope  ( slope <= 0 for left ). Also used another function called **extrapolate_draw** to extrapolate and draw the straight lines
 
 
 
