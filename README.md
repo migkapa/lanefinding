@@ -14,7 +14,7 @@ My line finding pipeline consisted of the following steps:
 
 **	**
 
-**I used the helper function grayscale() for this.
+I used the helper function grayscale() for this.
 
 
 ![alt_text](images/gray.png "image_tooltip")
