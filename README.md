@@ -6,8 +6,6 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 ## Finding Lane Lines on the Road
 
 
-## Reflection
-
 My line finding pipeline consisted of the following steps:
 
 
@@ -23,7 +21,9 @@ My line finding pipeline consisted of the following steps:
 
 
 
-2. **Applied gaussian blur to the grayscale image**
+
+
+**2. Applied gaussian blur to the grayscale image**
 
 **	**
 
@@ -33,7 +33,9 @@ I chosed a kernel 7
 
 
 
-3. **Canny Edges Detection and Region Masking**
+
+
+**3. Canny Edges Detection and Region Masking**
 
 After the gaussian blur I apply the canny function with a low/high threshold of 40/80 as I thought that was a pretty clear edged image.
 
@@ -49,7 +51,7 @@ Now that I got the edge I had to create a masking region by creating a polygon s
 
 
 
-4. **Hough Transform**
+**4. Hough Transform**
 
 Using the **hough_lines** helper function and adding on top of **draw_lines **the logic to separate line segments by their slope  ( slope <= 0 for left ). Also used another function called **extrapolate_draw **to extrapolate and draw the straight lines
 
@@ -66,7 +68,7 @@ At the end I placed the final lines on top of the image using the helper functio
 
 
 
-### ** Potential shortcomings**
+### **Potential shortcomings**
 
 A potential shortcoming would be when the video goes through a big curb and the lines would go out of region of interest. And what about other situations like passing through some trees and the parameters are not suitable for that kind of enviroment? 
 
