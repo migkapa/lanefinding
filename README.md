@@ -67,6 +67,12 @@ At the end I placed the final lines on top of the image using the helper functio
 ![alt_text](images/lines.png "image_tooltip")
 
 
+**Applied it on videos and ended up with this**
+
+![alt_text](test_videos_output/solidwhiteright.gif "image_tooltip")
+
+
+![alt_text](test_videos_output/solidyellowleft.gif "image_tooltip")
 
 ### **Potential shortcomings**
 
